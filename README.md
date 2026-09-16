@@ -1,11 +1,12 @@
-# ESP32 OTA Firmware
+# ESP32 OTA Firmware 🚀
 
-Turn an ESP32 into a device you can update from your desk.
+[![PlatformIO](https://img.shields.io/badge/build-PlatformIO-blue)](https://platformio.org/)
+[![Arduino](https://img.shields.io/badge/framework-Arduino-green)](https://www.arduino.cc/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/VisioSphereAI/ota_basic.svg)](https://github.com/VisioSphereAI/ota_basic/stargazers)
 
-This project is a small, expandable firmware foundation with Wi-Fi, a
-password-protected ArduinoOTA service, serial progress reporting, and an LED
-heartbeat. Once the first upload is done over USB, future firmware updates can
-travel over the network.
+Turn an ESP32 into a device you can update from your desk.  
+This project is a small, expandable firmware foundation with Wi‑Fi, password‑protected OTA service, serial progress reporting, and an LED heartbeat. Once the first upload is done over USB, future firmware updates can travel over the network.
 
 ```mermaid
 flowchart LR
