@@ -25,7 +25,7 @@ void setup() {
 
 void loop() {
   otaHandle();
-  if (!otaInProgress && millis() - lastBlinkTime > 100) {
+  if (!otaInProgress && millis() - lastBlinkTime > 1000) {
     ledState = ledState == LOW ? HIGH : LOW;
     digitalWrite(otaLedPin, ledState);
     Serial.println(otaInProgress);
