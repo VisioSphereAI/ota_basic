@@ -99,7 +99,6 @@ and `include/`.
 
 ```text
 src/
-  ota_basic.ino       Main application
   ota.cpp             OTA setup, callbacks, and LED state
 include/
   ota.h               OTA public interface
@@ -108,6 +107,7 @@ include/
 releases/
   version.txt         Current release version
 build/                Local generated build output
+ota_basic.ino       Main application
 platformio.ini        PlatformIO configuration
 .github/workflows/    Continuous integration
 ```
